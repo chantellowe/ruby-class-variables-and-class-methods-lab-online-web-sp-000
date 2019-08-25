@@ -6,7 +6,7 @@ class Song
   end
   
   def self.name
-    @@name
+    
   end
   
   
