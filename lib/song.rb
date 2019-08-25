@@ -21,7 +21,7 @@ class Song
   def self.new(name, artist, genre)
   end
   
-  def self.name(name)
+  def self.new_by_name(name)
     song = self.new
     song.name = name
     song
