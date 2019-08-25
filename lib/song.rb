@@ -13,7 +13,9 @@ class Song
   end
   
   def self.genres
-    
+    @@new_genres = []
+    @@new_genres << @@genres.uniq
+    @@new_genres
   end
   
 end
