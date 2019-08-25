@@ -1,13 +1,11 @@
 class Song
   
-  
+  attr_accessor :name
   
   def self.new(name, artist, genre)
   end
   
-  def @name=(name)
-    @name = name
-  end
+
   
   
   
