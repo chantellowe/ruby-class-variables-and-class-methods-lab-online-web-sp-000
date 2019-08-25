@@ -2,15 +2,9 @@ class Song
   
   
   def self.new(name, artist, genre)
+    name = self.name
   end
   
-  def self.name=(name)
-    @name = name
-  end
-  
-  def self.name
-    @name
-  end
   
   
   
