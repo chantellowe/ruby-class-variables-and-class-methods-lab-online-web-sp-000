@@ -6,8 +6,6 @@ class Song
     
   end
   
-  song = self.new
-  
   def self.name(name)
     
   end
