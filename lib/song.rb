@@ -2,12 +2,13 @@ class Song
   
   attr_accessor :name, :artist, :genre
   
-  @@count = 0 
+  @@count = 0
   @@artists
   @@genres
   
   def Song.count
-    @@count.map
+    @@count.map {|song| song += 1}
+    @@count
   end
   
   def Song.artists
