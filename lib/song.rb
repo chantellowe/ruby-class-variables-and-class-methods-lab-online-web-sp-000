@@ -7,7 +7,7 @@ class Song
   @@genres
   
   def Song.count
-    
+    @@count.map
   end
   
   def Song.artists
