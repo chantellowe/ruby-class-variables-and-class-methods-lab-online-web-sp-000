@@ -17,15 +17,11 @@ class Song
   end
   
   def self.genres
-    @@new_genres = []
-    @@new_genres << @@genres.uniq
-    @@new_genres
+    @@genres.uniq
   end
   
   def self.artists
-    @@new_artists = []
-    @@new_artists << @@artists.uniq
-    @@new_artists
+    @@artists.uniq
   end
   
   def self.genre_count
