@@ -13,10 +13,12 @@ class Song
   
   def self.create
     song = self.new
+    song.save
+    song
+  end
     
   
   def self.new(name, artist, genre)
-    
   end
   
   def self.name(name)
