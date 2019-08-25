@@ -9,6 +9,7 @@ class Song
   def Song.count
     @@count = 0
     @@count.map {|song| song += 1}
+    @@count
   end
   
   def Song.artists
